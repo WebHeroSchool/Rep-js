@@ -1,15 +1,9 @@
 let num = 0;
 let score;
 
-const question1 = {
-	question: 'вопрос'
-}
-const question2 = {
-	question: 'вопрос'
-}
-const question3 = {
-	question: 'вопрос'
-}
-const question4 = {
-	question: 'вопрос'
-}
+let arr = [
+	{question1:'',correctAnswer:'a'},
+	{question2:'',correctAnswer:'b'},
+	{question3:'',correctAnswer:'c'},
+	{question4:'',correctAnswer:'d'},
+]
