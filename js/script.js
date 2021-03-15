@@ -21,4 +21,18 @@ function showResults() {
   alert("Вы отгадали " + score + " загадки!");
 }
 
+const next = document.querySelector(".next");
+const prev = document.querySelector(".previous");
+let page = 0;
+
+next.addEventListener("click",(event) => {
+		page++
+    console.log(page);
+});
+
+prev.addEventListener("click",(event) => {
+		page--
+    console.log(page);
+});
+
 showResults();
